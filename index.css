@@ -1,0 +1,175 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@media screen and (max-width:320px) {
+  h: {
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+
+  }
+
+  body: {
+   font-family: 'Dancing Script', cursive;
+  }
+
+  .boxed {
+        border: 5px solid white ;
+
+
+  }
+
+  .boo {
+        border: 5px solid white ;
+
+
+  }
+
+  .transparent {
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.1)50%,rgba(0, 0, 0, 0.7)50%),url(index.jpg);
+    background-size: cover;
+    height: 45vh;
+
+  }
+
+  .transparent2 {
+    background-image:linear-gradient(360deg,rgba(0, 0, 0, 0.1)50%,rgba(0, 0, 0, 0.7)50%),url(good.jpg);
+    background-size: cover;
+    height: 45vh;
+  }
+
+  p: {
+    font-family: 'Dancing Script', cursive;
+  text-align:top;
+
+  }
+
+  a:link {
+    color:white;
+  }
+
+  a:hover {
+      color: black;
+      background-color: transparent black;
+  }
+
+  a:visited {
+      color: white;
+  }
+
+  img {
+      opacity: 0.5;
+      filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+  div.fixed {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      border: 3px solid #73AD21;
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+
+}
+
+h: {
+ font-family: 'Dancing Script', cursive;
+ text-align: center;
+
+}
+
+h2 {
+    font-family: 'Arimo', sans-serif;
+  text-align: center;
+}
+
+body: {
+ font-family: 'Dancing Script', cursive;
+}
+
+.boxed {
+      border: 10px solid white ;
+
+
+}
+
+.boo {
+      border: 10px solid white ;
+
+
+}
+
+.transparent {
+  background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.1)50%,rgba(0, 0, 0, 0.7)50%),url(index.jpg);
+  background-size: cover;
+  height: 90vh;
+
+}
+
+.transparent2 {
+  background-image:linear-gradient(360deg,rgba(0, 0, 0, 0.1)50%,rgba(0, 0, 0, 0.7)50%),url(good.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+
+p: {
+  font-family: 'Dancing Script', cursive;
+text-align:top;
+
+}
+
+a:link {
+  color:white;
+}
+
+a:hover {
+    color: black;
+
+}
+
+a:visited {
+    color: white;
+}
+
+button {
+  color: black;
+  background-color: grey;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border: 3px solid #73AD21;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+  }S
